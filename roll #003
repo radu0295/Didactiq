@@ -23,4 +23,4 @@ dataDeAzi = datetime.date.today()
 
 timedelta = dataDeAzi - dataIntrodusa
 
-print("De atunci si pana azi, au trecut aproximativ: ", timedelta.total_seconds())
+print("De atunci si pana azi, au trecut aproximativ: ", timedelta.total_seconds()," secunde")
