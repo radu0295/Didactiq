@@ -9,7 +9,7 @@ while True:
         numar = int(input())
         break
     except ValueError:
-        print "Fii gigel - introdu numaru ala sa fie natural..."
+        print ("Fii gigel - introdu numaru ala sa fie natural...")
 
 varIntermed, inversa = int(), int()
 translator = len(str(numar)) #i-am zis translator pt ca o sa aiba rolul de a muta ceva mai departe
@@ -33,7 +33,7 @@ while True:
         numar = int(input())
         break
     except ValueError:
-        print "Ce-am vorbit??"
+        print ("Ce-am vorbit??")
 
 numar = str(numar)
 numar = numar[::-1]
