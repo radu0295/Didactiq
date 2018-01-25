@@ -1,0 +1,17 @@
+'''Roll: #123
+Reverse a number mathematically (e.g. 12345 → 54321)
+'''
+
+print ("Introdu numar natural: ")
+
+numar = int(input())
+varIntermed, inversa = int(), int()
+translator = len(str(numar)) #i-am zis translator pt ca o sa aiba rolul de a muta ceva mai departe
+while numar > 0:
+    numar, varIntermed = divmod(numar, 10)
+    inversa = inversa + varIntermed*(10**translator)
+    translator=translator-1
+
+inversa = int(inversa / 10) #sunt zigan :(
+
+print("Numarul invers se este", inversa)
