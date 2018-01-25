@@ -1,0 +1,26 @@
+'''
+
+Calculate age in seconds
+bonus: accounting for leap years
+
+Given a date, calculate the time between then and now, and express it in seconds
+
+Bonusul in fac mai tarziu...
+'''
+
+import math
+import datetime
+
+print("Alege o data")
+
+ziua = int(input('Ziua: '))
+luna = int(input('Luna: '))
+anul = int(input('Anul: '))
+
+dataIntrodusa = datetime.date(anul,luna,ziua)
+
+dataDeAzi = datetime.date.today()
+
+timedelta = dataDeAzi - dataIntrodusa
+
+print("De atunci si pana azi, au trecut aproximativ: ", timedelta.total_seconds())
