@@ -20,7 +20,7 @@ while numar > 0:
 
 inversa = int(inversa / 10) #sunt zigan :(
 
-print("Numarul invers se este", inversa)
+print(f"Numarul invers se este {inversa}")
 
 
 '''varianta mai usoara
@@ -39,4 +39,4 @@ numar = str(numar)
 numar = numar[::-1]
 
 
-print("Numarul invers se este", numar)
+print(f"Numarul invers se este {numar}")
